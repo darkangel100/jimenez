@@ -42,7 +42,6 @@ namespace WindowsFormsApplication1
         {
             libro.ShowDialog();
         }
-
      
         private void usuarioToolStripMenuItem1_Click(object sender, EventArgs e)
         {

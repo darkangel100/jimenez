@@ -9,7 +9,7 @@ namespace WindowsFormsApplication1
 {
     class conexion
     {
-        String connectionString = "Database=biblioteca;Data Source=localhost;User Id=root;Password";
+        String connectionString = "Database=biblioteca;Data Source=localhost;User Id=root;Password=";
         public MySqlConnection GetConnection()
         {
             MySqlConnection objcon = new MySqlConnection(connectionString);

@@ -16,22 +16,41 @@ P:\Analisi2\pantallas\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\
 P:\Analisi2\pantallas\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Sancion.resources
 P:\Analisi2\pantallas\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
 P:\Analisi2\pantallas\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Reportes.resources
-D:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
-D:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
-D:\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
-D:\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
-D:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Administrador.resources
-D:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Administrar.resources
-D:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Usuario.resources
-D:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Devoluciones.resources
-D:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Inicio.resources
-D:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Libro.resources
-D:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Prestamos.resources
-D:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
-D:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Reportes.resources
-D:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Revista.resources
-D:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Sancion.resources
-D:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Tesis.resources
-D:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
-D:\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Stalin\Documents\Directorio de intercambio Bluetooth\Biblioteca\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Stalin\Documents\Directorio de intercambio Bluetooth\Biblioteca\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\Stalin\Documents\Directorio de intercambio Bluetooth\Biblioteca\Sistema Bibliotecario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Stalin\Documents\Directorio de intercambio Bluetooth\Biblioteca\Sistema Bibliotecario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\Stalin\Documents\Directorio de intercambio Bluetooth\Biblioteca\Sistema Bibliotecario\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Stalin\Documents\Directorio de intercambio Bluetooth\Biblioteca\Sistema Bibliotecario\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Stalin\Documents\Directorio de intercambio Bluetooth\Biblioteca\Sistema Bibliotecario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Stalin\Documents\Directorio de intercambio Bluetooth\Biblioteca\Sistema Bibliotecario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Administrador.resources
+C:\Users\Stalin\Documents\Directorio de intercambio Bluetooth\Biblioteca\Sistema Bibliotecario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Administrar.resources
+C:\Users\Stalin\Documents\Directorio de intercambio Bluetooth\Biblioteca\Sistema Bibliotecario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Usuario.resources
+C:\Users\Stalin\Documents\Directorio de intercambio Bluetooth\Biblioteca\Sistema Bibliotecario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Devoluciones.resources
+C:\Users\Stalin\Documents\Directorio de intercambio Bluetooth\Biblioteca\Sistema Bibliotecario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Inicio.resources
+C:\Users\Stalin\Documents\Directorio de intercambio Bluetooth\Biblioteca\Sistema Bibliotecario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Libro.resources
+C:\Users\Stalin\Documents\Directorio de intercambio Bluetooth\Biblioteca\Sistema Bibliotecario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Prestamos.resources
+C:\Users\Stalin\Documents\Directorio de intercambio Bluetooth\Biblioteca\Sistema Bibliotecario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Stalin\Documents\Directorio de intercambio Bluetooth\Biblioteca\Sistema Bibliotecario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Reportes.resources
+C:\Users\Stalin\Documents\Directorio de intercambio Bluetooth\Biblioteca\Sistema Bibliotecario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Revista.resources
+C:\Users\Stalin\Documents\Directorio de intercambio Bluetooth\Biblioteca\Sistema Bibliotecario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Sancion.resources
+C:\Users\Stalin\Documents\Directorio de intercambio Bluetooth\Biblioteca\Sistema Bibliotecario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Tesis.resources
+C:\Users\Stalin\Documents\Directorio de intercambio Bluetooth\Biblioteca\Sistema Bibliotecario\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Stalin\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Stalin\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\Stalin\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Stalin\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Stalin\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Stalin\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Administrador.resources
+C:\Users\Stalin\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Administrar.resources
+C:\Users\Stalin\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Usuario.resources
+C:\Users\Stalin\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Devoluciones.resources
+C:\Users\Stalin\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Inicio.resources
+C:\Users\Stalin\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Libro.resources
+C:\Users\Stalin\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Prestamos.resources
+C:\Users\Stalin\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Stalin\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Reportes.resources
+C:\Users\Stalin\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Revista.resources
+C:\Users\Stalin\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Sancion.resources
+C:\Users\Stalin\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Tesis.resources
+C:\Users\Stalin\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
