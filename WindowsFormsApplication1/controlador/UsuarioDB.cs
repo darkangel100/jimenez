@@ -40,7 +40,7 @@ namespace WindowsFormsApplication1.controlador
             int resp;
             try
             {
-                string sqlcad = "Insert persona Values('"+usu.codusu+"','" + usu.cedusu + "','" + usu.apeusu + "','" + usu.nomusu + "','" + usu.dirusu + "','" + usu.telusu + "','" + usu.insusu + "','" + usu.estusu + "')";
+                string sqlcad = "Insert usuario Values('"+usu.codusu+"','" + usu.cedusu + "','" + usu.apeusu + "','" + usu.nomusu + "','" + usu.dirusu + "','" + usu.telusu + "','" + usu.insusu + "','" + usu.estusu + "')";
                 cmd = new MySqlCommand(sqlcad, cn);
                 cmd.CommandType = CommandType.Text;
                 cn.Open();
@@ -70,7 +70,7 @@ namespace WindowsFormsApplication1.controlador
 
             try
             {
-                string sqlcad = "Select * from persona where estado='" + est + "' order by apellido";
+                string sqlcad = "Select * from usuario where estado='" + est + "' order by apellido";
                 cmd = new MySqlCommand(sqlcad, cn);
                 cmd.CommandType = CommandType.Text;
                 cn.Open();
@@ -112,7 +112,7 @@ namespace WindowsFormsApplication1.controlador
             MySqlConnection cn = con.GetConnection();
             try
             {
-                string sqlcad = "Select * from persona where cedula='" + ced + "'";
+                string sqlcad = "Select * from usuario where cedula='" + ced + "'";
                 cmd = new MySqlCommand(sqlcad, cn);
                 cmd.CommandType = CommandType.Text;
                 cn.Open();
@@ -154,7 +154,7 @@ namespace WindowsFormsApplication1.controlador
             int resp = 0;
             try
             {
-                string sqlcad = "Update persona set estado='P' WHERE cedula='" + ced + "'";
+                string sqlcad = "Update usuario set estado='P' WHERE cedula='" + ced + "'";
                 cmd = new MySqlCommand(sqlcad, cn);
                 cmd.CommandType = CommandType.Text;
                 cn.Open();
@@ -181,7 +181,7 @@ namespace WindowsFormsApplication1.controlador
             int resp;
             try
             {
-                string sqlcad = "Update persona set apellido='" + usu.apeusu + "',nommbre='" + usu.nomusu + "',direccion='" + usu.dirusu + "',telefono='" + usu.telusu + "',institucion='" + usu.insusu + "',estado='" + usu.estusu + "' WHERE cedeula='" + usu.cedusu + "'";
+                string sqlcad = "Update usuario set apellido='" + usu.apeusu + "',nommbre='" + usu.nomusu + "',direccion='" + usu.dirusu + "',telefono='" + usu.telusu + "',institucion='" + usu.insusu + "',estado='" + usu.estusu + "' WHERE cedeula='" + usu.cedusu + "'";
                 cmd = new MySqlCommand(sqlcad, cn);
                 cmd.CommandType = CommandType.Text;
                 cn.Open();
@@ -208,7 +208,7 @@ namespace WindowsFormsApplication1.controlador
             MySqlCommand cmd;
             try
             {
-                string sqlcad = "Select max(SUBSTRING(id_persona,3))as nro from persona";
+                string sqlcad = "Select max(SUBSTRING(id_persona,3))as nro from usuario";
                 cmd = new MySqlCommand(sqlcad, cn);
                 cn.Open();
                 MySqlDataReader dr = cmd.ExecuteReader();

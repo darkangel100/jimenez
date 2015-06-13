@@ -30,10 +30,10 @@
         {
             this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.rbnbaja = new System.Windows.Forms.RadioButton();
+            this.rbnactivo = new System.Windows.Forms.RadioButton();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtconClav = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -52,7 +52,7 @@
             this.btn_modificar = new System.Windows.Forms.Button();
             this.btn_nuevo = new System.Windows.Forms.Button();
             this.btn_salir = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvbibl = new System.Windows.Forms.DataGridView();
             this.Cedula = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Apellidos = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombres = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -61,14 +61,14 @@
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvbibl)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.groupBox1);
             this.panel2.Controls.Add(this.label9);
-            this.panel2.Controls.Add(this.textBox3);
+            this.panel2.Controls.Add(this.txtconClav);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
@@ -83,15 +83,16 @@
             this.panel2.Controls.Add(this.txtapelec);
             this.panel2.Controls.Add(this.txtcedlec);
             this.panel2.Controls.Add(this.label8);
-            this.panel2.Location = new System.Drawing.Point(17, 99);
+            this.panel2.Enabled = false;
+            this.panel2.Location = new System.Drawing.Point(17, 113);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(579, 213);
+            this.panel2.Size = new System.Drawing.Size(579, 215);
             this.panel2.TabIndex = 33;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.rbnbaja);
+            this.groupBox1.Controls.Add(this.rbnactivo);
             this.groupBox1.Location = new System.Drawing.Point(443, 33);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(111, 85);
@@ -99,27 +100,27 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Estado";
             // 
-            // radioButton2
+            // rbnbaja
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(18, 51);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(80, 17);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.Text = "Dar de baja";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rbnbaja.AutoSize = true;
+            this.rbnbaja.Location = new System.Drawing.Point(18, 51);
+            this.rbnbaja.Name = "rbnbaja";
+            this.rbnbaja.Size = new System.Drawing.Size(80, 17);
+            this.rbnbaja.TabIndex = 1;
+            this.rbnbaja.Text = "Dar de baja";
+            this.rbnbaja.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // rbnactivo
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(18, 28);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(55, 17);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Activo";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbnactivo.AutoSize = true;
+            this.rbnactivo.Checked = true;
+            this.rbnactivo.Location = new System.Drawing.Point(18, 28);
+            this.rbnactivo.Name = "rbnactivo";
+            this.rbnactivo.Size = new System.Drawing.Size(55, 17);
+            this.rbnactivo.TabIndex = 0;
+            this.rbnactivo.TabStop = true;
+            this.rbnactivo.Text = "Activo";
+            this.rbnactivo.UseVisualStyleBackColor = true;
             // 
             // label9
             // 
@@ -132,12 +133,12 @@
             this.label9.TabIndex = 22;
             this.label9.Text = "Verifique su contraseña:";
             // 
-            // textBox3
+            // txtconClav
             // 
-            this.textBox3.Location = new System.Drawing.Point(188, 180);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(196, 20);
-            this.textBox3.TabIndex = 21;
+            this.txtconClav.Location = new System.Drawing.Point(188, 180);
+            this.txtconClav.Name = "txtconClav";
+            this.txtconClav.Size = new System.Drawing.Size(196, 20);
+            this.txtconClav.TabIndex = 21;
             // 
             // label6
             // 
@@ -202,6 +203,7 @@
             this.btnguardarlector.TabIndex = 13;
             this.btnguardarlector.Text = "Guardar";
             this.btnguardarlector.UseVisualStyleBackColor = true;
+            this.btnguardarlector.Click += new System.EventHandler(this.btnguardarlector_Click);
             // 
             // btncancelarlect
             // 
@@ -292,6 +294,7 @@
             this.btn_nuevo.TabIndex = 2;
             this.btn_nuevo.Text = "Nuevo";
             this.btn_nuevo.UseVisualStyleBackColor = true;
+            this.btn_nuevo.Click += new System.EventHandler(this.btn_nuevo_Click);
             // 
             // btn_salir
             // 
@@ -303,49 +306,57 @@
             this.btn_salir.UseVisualStyleBackColor = true;
             this.btn_salir.Click += new System.EventHandler(this.btn_salir_Click);
             // 
-            // dataGridView1
+            // dgvbibl
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvbibl.AllowUserToAddRows = false;
+            this.dgvbibl.AllowUserToDeleteRows = false;
+            this.dgvbibl.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dgvbibl.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvbibl.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Cedula,
             this.Apellidos,
             this.Nombres,
             this.Telefono,
             this.Estado});
-            this.dataGridView1.Location = new System.Drawing.Point(17, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(579, 79);
-            this.dataGridView1.TabIndex = 35;
+            this.dgvbibl.Location = new System.Drawing.Point(17, 12);
+            this.dgvbibl.Name = "dgvbibl";
+            this.dgvbibl.ReadOnly = true;
+            this.dgvbibl.Size = new System.Drawing.Size(579, 95);
+            this.dgvbibl.TabIndex = 35;
             // 
             // Cedula
             // 
             this.Cedula.Frozen = true;
             this.Cedula.HeaderText = "Cedula";
             this.Cedula.Name = "Cedula";
+            this.Cedula.ReadOnly = true;
             // 
             // Apellidos
             // 
             this.Apellidos.Frozen = true;
             this.Apellidos.HeaderText = "Apellidos";
             this.Apellidos.Name = "Apellidos";
+            this.Apellidos.ReadOnly = true;
             // 
             // Nombres
             // 
             this.Nombres.Frozen = true;
             this.Nombres.HeaderText = "Nombres";
             this.Nombres.Name = "Nombres";
+            this.Nombres.ReadOnly = true;
             // 
             // Telefono
             // 
             this.Telefono.Frozen = true;
             this.Telefono.HeaderText = "Telefono";
             this.Telefono.Name = "Telefono";
+            this.Telefono.ReadOnly = true;
             // 
             // Estado
             // 
             this.Estado.HeaderText = "Estado";
             this.Estado.Name = "Estado";
+            this.Estado.ReadOnly = true;
             // 
             // Administrador
             // 
@@ -353,7 +364,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
             this.ClientSize = new System.Drawing.Size(618, 385);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvbibl);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Name = "Administrador";
@@ -363,7 +374,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvbibl)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -372,7 +383,7 @@
 
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtconClav;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
@@ -391,10 +402,10 @@
         private System.Windows.Forms.Button btn_modificar;
         private System.Windows.Forms.Button btn_nuevo;
         private System.Windows.Forms.Button btn_salir;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvbibl;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rbnbaja;
+        private System.Windows.Forms.RadioButton rbnactivo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cedula;
         private System.Windows.Forms.DataGridViewTextBoxColumn Apellidos;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombres;

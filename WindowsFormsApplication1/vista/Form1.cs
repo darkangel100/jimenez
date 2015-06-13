@@ -27,18 +27,17 @@ namespace WindowsFormsApplication1
             {
                 if (txtNombre1.Text == Bibliotecario)
                 {
-                  // Administrar.Show();
+                  //Administrar.Show();
+                  //this.Hide();
+                    Administrar.Show();
                     this.Hide();
-                    Administrar.ShowDialog();
-                    this.Show();
                     
                 }
                 else
                 {
                     Administrar.MnAdministrador.Visible = true;
+                    Administrar.Show();
                     this.Hide();
-                    Administrar.ShowDialog();
-                    this.Show();
                    
                     
                     
