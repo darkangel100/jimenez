@@ -61,6 +61,8 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.txtid = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -69,6 +71,8 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.txtid);
             this.panel2.Controls.Add(this.groupBox1);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.label5);
@@ -84,9 +88,9 @@
             this.panel2.Controls.Add(this.txtapelec);
             this.panel2.Controls.Add(this.txtcedlec);
             this.panel2.Controls.Add(this.label8);
-            this.panel2.Location = new System.Drawing.Point(13, 235);
+            this.panel2.Location = new System.Drawing.Point(13, 224);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(648, 176);
+            this.panel2.Size = new System.Drawing.Size(648, 198);
             this.panel2.TabIndex = 25;
             // 
             // groupBox1
@@ -127,7 +131,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Snow;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(4, 152);
+            this.label6.Location = new System.Drawing.Point(4, 166);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(81, 15);
             this.label6.TabIndex = 20;
@@ -138,7 +142,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Snow;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(4, 127);
+            this.label5.Location = new System.Drawing.Point(4, 141);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(71, 15);
             this.label5.TabIndex = 19;
@@ -149,7 +153,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Snow;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(4, 100);
+            this.label4.Location = new System.Drawing.Point(4, 114);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(76, 15);
             this.label4.TabIndex = 18;
@@ -160,7 +164,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Snow;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(3, 73);
+            this.label3.Location = new System.Drawing.Point(3, 87);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(73, 15);
             this.label3.TabIndex = 17;
@@ -171,7 +175,7 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Snow;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(2, 45);
+            this.label7.Location = new System.Drawing.Point(2, 59);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(74, 15);
             this.label7.TabIndex = 16;
@@ -185,6 +189,7 @@
             this.btnguardarlector.TabIndex = 13;
             this.btnguardarlector.Text = "Guardar";
             this.btnguardarlector.UseVisualStyleBackColor = true;
+            this.btnguardarlector.Click += new System.EventHandler(this.btnguardarlector_Click);
             // 
             // btncancelarlect
             // 
@@ -197,42 +202,42 @@
             // 
             // txtintlec
             // 
-            this.txtintlec.Location = new System.Drawing.Point(85, 150);
+            this.txtintlec.Location = new System.Drawing.Point(85, 164);
             this.txtintlec.Name = "txtintlec";
             this.txtintlec.Size = new System.Drawing.Size(291, 20);
             this.txtintlec.TabIndex = 11;
             // 
             // txttellec
             // 
-            this.txttellec.Location = new System.Drawing.Point(86, 124);
+            this.txttellec.Location = new System.Drawing.Point(86, 138);
             this.txttellec.Name = "txttellec";
             this.txttellec.Size = new System.Drawing.Size(160, 20);
             this.txttellec.TabIndex = 9;
             // 
             // txtdirlec
             // 
-            this.txtdirlec.Location = new System.Drawing.Point(86, 97);
+            this.txtdirlec.Location = new System.Drawing.Point(86, 111);
             this.txtdirlec.Name = "txtdirlec";
             this.txtdirlec.Size = new System.Drawing.Size(291, 20);
             this.txtdirlec.TabIndex = 7;
             // 
             // txtnomlec
             // 
-            this.txtnomlec.Location = new System.Drawing.Point(86, 71);
+            this.txtnomlec.Location = new System.Drawing.Point(86, 85);
             this.txtnomlec.Name = "txtnomlec";
             this.txtnomlec.Size = new System.Drawing.Size(291, 20);
             this.txtnomlec.TabIndex = 6;
             // 
             // txtapelec
             // 
-            this.txtapelec.Location = new System.Drawing.Point(85, 43);
+            this.txtapelec.Location = new System.Drawing.Point(85, 57);
             this.txtapelec.Name = "txtapelec";
             this.txtapelec.Size = new System.Drawing.Size(291, 20);
             this.txtapelec.TabIndex = 5;
             // 
             // txtcedlec
             // 
-            this.txtcedlec.Location = new System.Drawing.Point(87, 11);
+            this.txtcedlec.Location = new System.Drawing.Point(87, 27);
             this.txtcedlec.Name = "txtcedlec";
             this.txtcedlec.Size = new System.Drawing.Size(160, 20);
             this.txtcedlec.TabIndex = 4;
@@ -242,7 +247,7 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Snow;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(6, 13);
+            this.label8.Location = new System.Drawing.Point(6, 27);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(60, 15);
             this.label8.TabIndex = 0;
@@ -266,6 +271,7 @@
             this.btn_modificar.TabIndex = 3;
             this.btn_modificar.Text = "Modificar";
             this.btn_modificar.UseVisualStyleBackColor = true;
+            this.btn_modificar.Click += new System.EventHandler(this.btn_modificar_Click);
             // 
             // btn_nuevo
             // 
@@ -285,7 +291,6 @@
             this.btn_salir.TabIndex = 9;
             this.btn_salir.Text = "Salir";
             this.btn_salir.UseVisualStyleBackColor = true;
-            this.btn_salir.Click += new System.EventHandler(this.btn_salir_Click);
             // 
             // dataGridView1
             // 
@@ -302,6 +307,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(649, 143);
             this.dataGridView1.TabIndex = 29;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // Cedula
             // 
@@ -361,6 +367,24 @@
             this.button1.Size = new System.Drawing.Size(34, 23);
             this.button1.TabIndex = 46;
             this.button1.UseVisualStyleBackColor = true;
+            // 
+            // txtid
+            // 
+            this.txtid.Location = new System.Drawing.Point(86, 3);
+            this.txtid.Name = "txtid";
+            this.txtid.Size = new System.Drawing.Size(160, 20);
+            this.txtid.TabIndex = 48;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Snow;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(4, 4);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(25, 15);
+            this.label1.TabIndex = 49;
+            this.label1.Text = "ID:";
             // 
             // Usuario
             // 
@@ -422,6 +446,8 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtid;
 
     }
 }

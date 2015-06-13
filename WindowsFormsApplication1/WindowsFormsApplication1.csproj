@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="conexion.cs" />
     <Compile Include="controlador\UsuarioDB.cs" />
+    <Compile Include="controlador\Util.cs" />
     <Compile Include="modelo\Usuario1.cs" />
     <Compile Include="vista\Administrador.cs">
       <SubType>Form</SubType>
