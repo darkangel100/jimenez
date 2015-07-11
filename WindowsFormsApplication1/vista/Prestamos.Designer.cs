@@ -118,7 +118,7 @@
             this.checkBox3.AutoSize = true;
             this.checkBox3.Location = new System.Drawing.Point(15, 70);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(67, 17);
+            this.checkBox3.Size = new System.Drawing.Size(68, 17);
             this.checkBox3.TabIndex = 37;
             this.checkBox3.Text = "Revistas";
             this.checkBox3.UseVisualStyleBackColor = true;
@@ -128,7 +128,7 @@
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(15, 47);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(51, 17);
+            this.checkBox2.Size = new System.Drawing.Size(52, 17);
             this.checkBox2.TabIndex = 36;
             this.checkBox2.Text = "Tesis";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -138,7 +138,7 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(15, 24);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(49, 17);
+            this.checkBox1.Size = new System.Drawing.Size(50, 17);
             this.checkBox1.TabIndex = 35;
             this.checkBox1.Text = "Libro";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -158,7 +158,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 45;
-            this.button4.Text = "Guaradar";
+            this.button4.Text = "Guardar";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // btn_salir

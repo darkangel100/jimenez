@@ -52,10 +52,17 @@
   <ItemGroup>
     <Compile Include="conexion.cs" />
     <Compile Include="controlador\BibliotecarioDB.cs" />
+    <Compile Include="controlador\LibroDB.cs" />
+    <Compile Include="controlador\RevistaDB.cs" />
+    <Compile Include="controlador\TesisDB.cs" />
     <Compile Include="controlador\UsuarioDB.cs" />
     <Compile Include="controlador\Util.cs" />
     <Compile Include="modelo\Bibliotecario.cs" />
+    <Compile Include="modelo\Doc_Bibliogrf.cs" />
+    <Compile Include="modelo\Libro.cs" />
     <Compile Include="modelo\Persona.cs" />
+    <Compile Include="modelo\Revista.cs" />
+    <Compile Include="modelo\Tesis.cs" />
     <Compile Include="modelo\Usuario1.cs" />
     <Compile Include="vista\Administrador.cs">
       <SubType>Form</SubType>
